@@ -7,7 +7,9 @@
 7. Console.ReadLine (); Console.Read
 8. Допускать значение переменной null или нет ? ! при присвоении
 9. Типы данных string и int
-10. Тип данных Double
+10. Тип данных Double, bool
+11. Арифметические операции + - / * % ()
+12. new Random().Next(min,max) выдает целое число от [min (включительно) до max) не включительно
 
 ## dotnet new console
 
