@@ -10,6 +10,9 @@
 10. Тип данных Double, bool
 11. Арифметические операции + - / * % ()
 12. new Random().Next(min,max) выдает целое число от [min (включительно) до max) не включительно
+13. if (условия) {} else {}
+14. | или & и
+15. string.ToLower()
 
 ## dotnet new console
 
