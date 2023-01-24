@@ -6,9 +6,16 @@
 6. Запуск dotnet run
 7. Console.ReadLine (); Console.Read
 8. Допускать значение переменной null или нет ? ! при присвоении
-
+9. Типы данных string и int
+10. Тип данных Double
 
 ## dotnet new console
 
 ## dotnet run
  
+
+
+
+
+
+
