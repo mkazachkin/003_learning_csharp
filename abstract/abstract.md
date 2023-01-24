@@ -13,6 +13,9 @@
 13. if (условия) {} else {}
 14. | или & и
 15. string.ToLower()
+16. while (условие) {} или int count = 0; while (count <100)...
+17. Console.Clear
+18. Console.SetCursorPosition
 
 ## dotnet new console
 
