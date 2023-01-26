@@ -12,5 +12,5 @@ if ((userNumber >999) | (userNumber<100))
     Console.WriteLine("Введено неправильное число.");
 } else
 {
-    Console.WriteLine("Последняя цифра введенного числа - " + userNumber %100%10+".");
+    Console.WriteLine("Последняя цифра введенного числа - " + userNumber %10+".");
 }
