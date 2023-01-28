@@ -3,19 +3,23 @@
 // 2 -> " -2, -1, 0, 1, 2"
 Console.Clear();
 Console.Write("Введите число: ");
-int userNumber = int.Parse(Console.ReadLine ()!)!;
+int userNumber = int.Parse(Console.ReadLine()!)!;
 int leftNumber;
 int rightNumber;
-if (userNumber >0) {
+if (userNumber > 0)
+{
     leftNumber = userNumber * (-1);
     rightNumber = userNumber;
-} else {
+}
+else
+{
     leftNumber = userNumber;
     rightNumber = userNumber * (-1);
 }
 int counter = leftNumber;
-while (counter < rightNumber){
-    Console.Write (counter + ", ");
+while (counter < rightNumber)
+{
+    Console.Write(counter + ", ");
     counter++;
 }
-Console.WriteLine (counter);
+Console.WriteLine(counter);

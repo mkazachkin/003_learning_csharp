@@ -6,19 +6,23 @@ int weight5 = 4;
 
 int max = weight1;
 
-if (weight2>max) {
+if (weight2 > max)
+{
     max = weight2;
 }
 
-if (weight3>max) {
+if (weight3 > max)
+{
     max = weight3;
 }
 
-if (weight4>max) {
+if (weight4 > max)
+{
     max = weight4;
 }
 
-if (weight5>max) {
+if (weight5 > max)
+{
     max = weight5;
 }
-Console.WriteLine ("Максимальный вес: "+ max);
+Console.WriteLine("Максимальный вес: " + max);
