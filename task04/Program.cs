@@ -6,7 +6,6 @@
 Console.Clear();
 Console.Write("Введите число от 100 до 999: ");
 int userNumber = int.Parse(Console.ReadLine()!)!;
-string result;
 if ((userNumber > 999) | (userNumber < 100))
 {
     Console.WriteLine("Введено неправильное число.");
