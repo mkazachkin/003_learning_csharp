@@ -1,4 +1,4 @@
-﻿int[] array = { 1, 12, 31, 4, 15, 16, 17, 18 };
+﻿int[] array = { 1, 12, 31, 4, 15, 16, 17, 16, 18 };
 int n = array.Length;
 
 Console.Clear();
@@ -9,7 +9,11 @@ int index = -1;
 int counter = 0;
 while (counter < n)
 {
-    if (array[counter] == find) index = counter;
+    if (array[counter] == find)
+    {
+        index = counter;
+        break;
+    }
     counter++;
 }
 if (index < 0)
