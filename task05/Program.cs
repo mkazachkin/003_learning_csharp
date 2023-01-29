@@ -14,13 +14,13 @@ const double meetLength = 0.01; //10 meters in km.
 //Let's input some parameters.
 Console.Clear();
 Console.Write("Введите скорость первого человека (км/ч): ");   //Speed in km/h
-firstSpeed = double.Parse(Console.ReadLine());
+firstSpeed = double.Parse(Console.ReadLine()!)!;
 Console.Write("Введите скорость второго человека (км/ч): ");   //Speed in km/h
-secondSpeed = double.Parse(Console.ReadLine());
+secondSpeed = double.Parse(Console.ReadLine()!)!;
 Console.Write("Введите скорость собаки (км/ч): ");             //Speed in km/h
-dogSpeed = double.Parse(Console.ReadLine());
+dogSpeed = double.Parse(Console.ReadLine()!)!;
 Console.Write("Введите расстояние между людьми (км): ");       //Distance in km
-wayLength = double.Parse(Console.ReadLine());
+wayLength = double.Parse(Console.ReadLine()!)!;
 
 //Let's check entered parameters.
 if ((dogSpeed < firstSpeed) | (dogSpeed < secondSpeed))
