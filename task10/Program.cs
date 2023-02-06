@@ -28,7 +28,7 @@ int userInput(string inputText)
 //В качестве аргумента получаем текст приглашения для ввода
 {
     Console.Write(inputText);           //Приглашаем пользователя ввести число   
-    string str = Console.ReadLine();    //Получаем ввод пользователя в переменную
+    string str = Console.ReadLine()!;    //Получаем ввод пользователя в переменную
     if (str != "")
     {
         return int.Parse(str);          //Если пользователь ввел что-то, то надеемся, что это число и возвращаем его
