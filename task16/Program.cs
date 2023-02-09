@@ -23,12 +23,21 @@ PrintArray(array);
 Console.Write($"Число {num} в массиве ");
 if (CheckArrayNum(array, num)) Console.WriteLine("присутствует."); else Console.WriteLine("отсутствует.");
 
+//-------
+//Методы
 bool CheckArrayNum(int[] someArray, int checkNum)
 {
     //Проверяем наличие числа в массиве
     //На входе массив someAray и число checkNum
     bool flag = false;
-    for (int i = 0; i <= someArray.Length - 1; i++) if (someArray[i] == checkNum) flag = true;
+    for (int i = 0; i <= someArray.Length - 1; i++)
+    {
+        if (someArray[i] == checkNum)
+        {
+            flag = true;
+            i = someArray.Length;
+        }
+    }
     return flag;
 }
 int[] GetArray(int length, int min = -1, int max = 1)
