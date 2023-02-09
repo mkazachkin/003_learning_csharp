@@ -4,7 +4,7 @@
 // 89126 -> 5
 
 Console.Clear();
-Console.Write("Введите число:");
+Console.Write("Введите число: ");
 int userNumber = int.Parse(Console.ReadLine()!)!;
 Console.WriteLine($"{CountDigits(userNumber)}");
 

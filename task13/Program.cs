@@ -5,9 +5,9 @@
 Console.Clear();
 Console.Write("Введите число: ");
 int userNumber = int.Parse(Console.ReadLine()!)!;
-Console.WriteLine($"Произведение чисел от 1 до {userNumber} = {MultOneToNumber(userNumber)}");
+Console.WriteLine($"Произведение чисел от 1 до {userNumber} = {MultOneToNumber1(userNumber)}");
 
-int MultOneToNumber(int someNumber)
+int MultOneToNumber1(int someNumber)
 {
     int counter = 1;
     int mult = 1;
@@ -17,4 +17,11 @@ int MultOneToNumber(int someNumber)
         counter++;
     }
     return mult;
+}
+
+int MultOneToNumber2(int number) //(c) Vladimir
+{
+    int Mult = 1;
+    for (int i = 1; i <= number; i++) Mult *= i;
+    return Mult;
 }
