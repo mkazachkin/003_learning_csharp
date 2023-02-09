@@ -15,12 +15,13 @@ int[] arr = GetArray(siz, min, max);
 //Работаем
 PrintArray(arr);
 PrintArray(MultFirstlast(arr));
+
 //-------
 //Методы
 int[] MultFirstlast(int[] someArray)
 {
     int oldLength = someArray.Length;
-    int newLength = (oldLength / 2) + (oldLength % 2);
+    int newLength = (oldLength / 2) + (oldLength % 2); //Если нечетное будет +1 к половинке
     int[] res = new int[newLength];
     for (int i = 0; i < newLength; i++)
     {
