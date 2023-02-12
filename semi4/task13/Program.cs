@@ -18,10 +18,3 @@ int MultOneToNumber1(int someNumber)
     }
     return mult;
 }
-
-int MultOneToNumber2(int number) //(c) Vladimir
-{
-    int Mult = 1;
-    for (int i = 1; i <= number; i++) Mult *= i;
-    return Mult;
-}

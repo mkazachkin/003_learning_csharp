@@ -1,4 +1,4 @@
-﻿// Задача 37: Найдите произведение пар чисел в одномерном массиве.
+﻿//Задача 37: Найдите произведение пар чисел в одномерном массиве.
 //Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 //Результат запишите в новом массиве.
 //[1 2 3 4 5] -> 5 8 3
@@ -14,11 +14,11 @@ int[] arr = GetArray(siz, min, max);
 //-------
 //Работаем
 PrintArray(arr);
-PrintArray(MultFirstlast(arr));
+PrintArray(MultFirstLast(arr));
 
 //-------
 //Методы
-int[] MultFirstlast(int[] someArray)
+int[] MultFirstLast(int[] someArray)
 {
     int oldLength = someArray.Length;
     int newLength = (oldLength / 2) + (oldLength % 2); //Если нечетное будет +1 к половинке
