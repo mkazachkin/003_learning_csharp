@@ -7,14 +7,13 @@ Console.Write("Введите N: ");
 int userN = int.Parse(Console.ReadLine()!)!;
 
 NaturalNumbers(userN);
-Console.WriteLine();
 
 void NaturalNumbers(int n, int start = 1)
 {
     if (start <= n)
     {
         Console.Write($"{start}");
-        if (start != n) Console.Write(", "); else Console.Write(".");
+        if (start != n) Console.Write(", "); else Console.WriteLine(".");
         NaturalNumbers(n, start + 1);
     }
 }
